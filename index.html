@@ -5,14 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="logo.png" alt="Fork and Knife Logo">
-    <h1>Odin Recipes</h1>
-    <ul>
-        <li><a href="recipes/nachos.html">Nachos</a></li>
-        <li><a href="recipes/nutella_sandwhich.html">Nutella Sandwhich</a></li>
-        <li><a href="recipes/cheese_and_crackers.html">Cheese & Crackers</a></li>
-    </ul>
+    <div class="logo">
+        <img src="logo.png" alt="Fork and Knife Logo" class="logo child">
+    </div>
+    <div class="head">
+        <h1 class="head text">Odin Recipes</h1>
+    </div>
+        <hr>
+    <div class="recipes">
+        <ul class="list">
+            <li class="list-item"> <button class="list button"><a href="recipes/nachos.html" class="link">Nachos</a> </button></li>
+            <li class="list-item"><button class="list button"><a href="recipes/nutella_sandwhich.html" class="link">Nutella Sandwhich</a></button></li>
+            <li class="list-item"><button class="list button"><a href="recipes/cheese_and_crackers.html" class="link">Cheese & Crackers</a></button></li>
+        </ul>
+    </div>
 </body>
 </html>
